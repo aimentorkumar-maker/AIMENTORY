@@ -1,0 +1,6 @@
+services:
+  pragyaaiupsc:
+    image: pragyaaiupsc
+    build:
+      context: .
+      dockerfile: ./Dockerfile
